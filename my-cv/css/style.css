@@ -1,0 +1,178 @@
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	font-size: 15px;
+	line-height: 150%;
+	color: #485268;
+	background-color: #E5E5E5;
+}
+strong {
+	font-weight: 500px;
+}
+.page {
+	width: 600px;
+	margin: 0 auto;
+}
+.main {
+	padding: 0 40px;
+	background-color: white;
+}
+/* #region about */
+.about {
+	background : linear-gradient(to bottom ,#f59e06  0%, #E25544 100% );
+	color: white;
+	padding: 32px 40px 24px 40px;
+	display: flex;
+}
+.about_name {
+	margin: 0 0 8px 0;
+	font-weight: 600px;
+	font-size: 30px;
+    line-height: 37px;
+}
+.about_role {
+	margin: 0 0 8px 0;
+	font-size: 12px;
+	line-height: 15px;
+}
+.about_txt {
+	margin: 0;
+	font-weight: 400px;
+	padding-top: 15px;
+}
+.about_photo {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin-left:50px;
+}
+/* #endregion */
+/* #region contacts */
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0;
+}
+.contacts_link {
+	color: #485268;
+	text-decoration: none;
+}
+/* #endregion */
+/* #region info */
+
+
+.info {
+	border-top: 1px solid #DEE2ED;
+	padding: 24px 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+.info_title {
+	margin: 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 100%;
+	color: #E25544;
+
+}
+.info_content {
+	width: 360px;
+}
+/* #endregion */
+/* #region job */
+.job {
+	border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+
+}
+
+
+
+.job_title {
+	font-weight: 500px;
+	font-size: 17px;
+	line-height: 15px;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.job_description {
+	margin: 0;
+	margin-top: 8px;
+
+}
+/* #endregion */
+/* #region study */
+.study {
+	border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+
+}
+
+
+
+.study_title {
+	font-weight: 500px;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.study_description {
+	margin: 0;
+	margin-top: 8px;
+}
+	/* #endregion */
+/* #region skills */
+.skills {
+	display: flex;
+}
+.skills_list {
+	box-sizing: border-box;
+	width: 50%;
+	border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+	list-style: none;
+	margin: 0;
+}
+.skills_item {
+	margin-top: 0;
+
+}
+.skills_item:first-child {
+	margin-top: 0px;
+}
+
+
+
+/* #endregion */
+/* #region tools */
+.tools {
+	display: flex;
+}
+.tools_list {
+	box-sizing: border-box;
+	width: 50%;
+	border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+	list-style: none;
+	margin: 0;
+	
+}
+.tools_item {
+	margin-top: 0;
+
+}
+.tools_item:first-child {
+	margin-top: 0px;
+}
+/* #endregion */
+
+
+
+
